@@ -1,43 +1,48 @@
-
-main {
+body {
+    margin: 0;
+    padding: 0;
     display: flex;
-  
+    justify-content: center;
+    width:100%;
 }
-.comic-contenedor {
-    height: 100vh;
-    background-color: #404040;
-    max-width: 300px;
-}
+
+
 .welcome-page {
-    height: 100vh;
-}
-
-.viñeta-contendor {
+    padding: 0;
     display: flex;
-    height: fit-content;
-    flex-direction: column;
     position: relative;
     justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #404040;
 }
 
-.superposition {
-    display: flex;
-    justify-content: space-between;
-}
 
 .cyberpooh-title{
-    object-fit: contain;
     width: 100%;
+    object-fit: contain;
+    height: 150px;
 }
-.personaje01{
+.superposition {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.personaje1{
     position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1; 
+    object-fit: contain;
+    z-index: 1;
+    width: 100%;
+    height:400px;
+    top: 390px;
 }
 .ciudad-silueta {
+    /* position: absolute; */
     object-fit: cover;
     width: 100%;
+    height: 500px;
 }
 
 
